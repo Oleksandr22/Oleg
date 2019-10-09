@@ -1,0 +1,107 @@
+body {
+  font-family: 'Exo', sans-serif;
+
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #333;
+
+}
+
+*{
+  box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Exo', sans-serif;
+  color:#282828;
+  letter-spacing: 0.06em;
+  margin: 0;
+  font-weight: 600;
+  line-height: 1.5;
+}
+h2{
+  font-size: 14px;
+}
+
+h3{
+  font-size: 16px;
+ 
+}
+h4{
+  
+  font-size: 40px;
+}
+.container{
+  width: 100%;
+  max-width: 1440px;
+  margin: 0px auto;
+}
+.header{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  background: url("../img/icon.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.header__title{
+    margin-top: 270px;
+    font-family: 'Exo', sans-serif;
+    color: #333;
+    font-size: 70px;
+    font-weight: 200; 
+    
+}
+
+.play{
+  display: block;
+  margin: 40px auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 18px 50px;
+    margin:20px;
+    background-color: #ff6d6d;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background .1s linear, color .1s linear;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #333;
+}
+.info{
+  background-color: #fff;
+  height: 724px;
+  text-align: left;
+  margin-left: 150px;
+  background: url("../img/bg2.jpg") right no-repeat;
+  -webkit-background-size: contain;
+  background-size: contain;
+}
+.info__nd{
+  color: #ff6d6d;
+  text-transform: uppercase;
+  margin-top: 190px ;
+  
+}
+.colortext{
+  color: #ff6d6d;
+}
+.info__text{
+  margin-top: 5px; 
+  margin-bottom:  50px; 
+}
+.newfeatures{
+  background-color: #f6f5f3;
+  height: 675px;
+    background: url("../img/Corporate.jpg") center no-repeat;
+    -webkit-background-size: cover;
+  background-size: cover;
+}
